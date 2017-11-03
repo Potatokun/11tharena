@@ -1,0 +1,177 @@
+.logo{
+    position: absolute;
+    top: 60px;
+    left: 2%;
+    width: 129px;
+    height: 100px;
+    background-image: url(../images/utils.png);
+    background-position: 0 -220px;
+    z-index: 3;   
+}
+
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.u-btn{
+    cursor: pointer;
+}
+
+.m-view{
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    overflow: hidden;
+}
+
+.m-view .u-btn{
+    position: fixed;
+    top: 50%;
+    width: 42px;
+    height: 42px;
+    margin-top: -21px;
+}
+
+.m-view .u-btn.prev{
+    left: 2%;
+    background-image: url(../images/utils.png);
+    background-position: 0 -136px;
+}
+
+.m-view .u-btn.prev:hover{
+    background-position: 0 -178px;
+}
+
+.m-view .u-btn.next{
+    right: 2%;
+    background-image: url(../images/utils.png);
+    background-position: 0 -52px;
+}
+
+.m-view .u-btn.next:hover{
+    background-position: 0 -94px;
+}
+
+.m-view .view-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 100%;
+}
+
+.m-view .view-item{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.m-view .top-page{
+    background-image: url(../images/bg.jpg);
+}
+
+.m-view .arena-content{
+    background-image: url(../images/bg-content.jpg);
+}
+
+.u-nav{
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+}
+
+.u-nav::before{
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 50%;
+    height: 2px;
+    margin-left: -440px;
+    margin-top: -1px;
+    background: #ec4a2b;
+}
+
+.u-nav::after{
+    display: block;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 50%;
+    height: 2px;
+    margin-right: -440px;
+    margin-top: -1px;
+    background: #86706d;
+}
+
+.u-nav.last::after{
+    background: #ec4a2b;
+}
+
+.nav-list{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-list li{
+    position: relative;
+    float: left;
+    width: 20%;
+    min-width: 70px;
+}
+
+.nav-list li::before{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    width: 60%;
+    height: 2px;
+    margin-top: -1px;
+    background: #86706d;  
+}
+
+.nav-list li::after{
+    display: block;
+    content: '';
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    width: 0;
+    height: 2px;
+    margin-top: -1px;
+    background: #ec4a2b;  
+}
+
+.nav-list li.pass::after{
+    width: 60%;
+}
+
+.nav-list .icon{
+    display: block;
+    width: 70px;
+    height: 72px;
+    margin: 0 auto;
+    background-image: url(../images/utils.png);
+}
+
+.nav-list .icon.i-1{background-position: 0 -320px;}
+.nav-list .icon.i-2{background-position: 0 -464px;}
+.nav-list .icon.i-3{background-position: 0 -608px;}
+.nav-list .icon.i-4{background-position: 0 -752px;}
+.nav-list .icon.i-5{background-position: 0 -896px;}
+
+.nav-list .pass .icon.i-1,.nav-list .icon.i-1.active,.nav-list .icon.i-1:hover{background-position: 0 -392px;}
+.nav-list .pass .icon.i-2,.nav-list .icon.i-2.active,.nav-list .icon.i-2:hover{background-position: 0 -536px;}
+.nav-list .pass .icon.i-3,.nav-list .icon.i-3.active,.nav-list .icon.i-3:hover{background-position: 0 -680px;}
+.nav-list .pass .icon.i-4,.nav-list .icon.i-4.active,.nav-list .icon.i-4:hover{background-position: 0 -824px;}
+.nav-list .pass .icon.i-5,.nav-list .icon.i-5.active,.nav-list .icon.i-5:hover{background-position: 0 -968px;}

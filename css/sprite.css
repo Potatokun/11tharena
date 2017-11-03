@@ -1,0 +1,101 @@
+.sprite-btn-dl {
+    width: 91px;
+    height: 26px;
+    background-position: 0 0;
+}
+
+.sprite-btn-link {
+    width: 91px;
+    height: 26px;
+    background-position: 0 -26px;
+}
+
+.sprite-btn-next {
+    width: 42px;
+    height: 42px;
+    background-position: 0 -52px;
+}
+
+.sprite-btn-next-a {
+    width: 42px;
+    height: 42px;
+    background-position: 0 -94px;
+}
+
+.sprite-btn-prev {
+    width: 42px;
+    height: 42px;
+    background-position: 0 -136px;
+}
+
+.sprite-btn-prev-a {
+    width: 42px;
+    height: 42px;
+    background-position: 0 -178px;
+}
+
+.sprite-logo {
+    width: 129px;
+    height: 100px;
+    background-position: 0 -220px;
+}
+
+.sprite-nav-1 {
+    width: 70px;
+    height: 72px;
+    background-position: 0 -320px;
+}
+
+.sprite-nav-1-a {
+    width: 70px;
+    height: 72px;
+    background-position: 0 -392px;
+}
+
+.sprite-nav-2 {
+    width: 70px;
+    height: 72px;
+    background-position: 0 -464px;
+}
+
+.sprite-nav-2-a {
+    width: 70px;
+    height: 72px;
+    background-position: 0 -536px;
+}
+
+.sprite-nav-3 {
+    width: 70px;
+    height: 72px;
+    background-position: 0 -608px;
+}
+
+.sprite-nav-3-a {
+    width: 70px;
+    height: 72px;
+    background-position: 0 -680px;
+}
+
+.sprite-nav-4 {
+    width: 69px;
+    height: 72px;
+    background-position: 0 -752px;
+}
+
+.sprite-nav-4-a {
+    width: 69px;
+    height: 72px;
+    background-position: 0 -824px;
+}
+
+.sprite-nav-5 {
+    width: 69px;
+    height: 72px;
+    background-position: 0 -896px;
+}
+
+.sprite-nav-5-a {
+    width: 69px;
+    height: 72px;
+    background-position: 0 -968px;
+}

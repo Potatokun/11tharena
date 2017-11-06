@@ -175,3 +175,145 @@
 .nav-list .pass .icon.i-3,.nav-list .icon.i-3.active,.nav-list .icon.i-3:hover{background-position: 0 -680px;}
 .nav-list .pass .icon.i-4,.nav-list .icon.i-4.active,.nav-list .icon.i-4:hover{background-position: 0 -824px;}
 .nav-list .pass .icon.i-5,.nav-list .icon.i-5.active,.nav-list .icon.i-5:hover{background-position: 0 -968px;}
+
+
+.content-wrap{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 95px;
+    font-family: "Microsoft Yahei";
+}
+
+.content-block{
+    width: 520px;
+    margin-bottom: 30px;
+}
+
+.content-wrap h4{
+    /* margin-bottom: 5px; */
+    text-align: center;
+    font-size: 54px;
+    color: #6be6f6;
+}
+
+.content-wrap h5.slogen{
+    font-size: 18px;
+    font-weight: 400;
+    color: #d3ebef;
+}
+
+.content-wrap .rule{
+    font-size: 18px;
+    color: #4189ac;
+}
+
+.reward-list{
+    margin-top: 20px;
+    margin-left: -15px;
+    overflow: hidden;
+}
+
+.reward-list li{
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.item-detail.normal{
+    width: 118px;
+    height: 170px;
+    background-image: url(../images/bg-item-normal.png);
+}
+
+.item-detail.large{
+    width: 251px;
+    height: 170px;
+    background-image: url(../images/bg-item-large.png);
+}
+
+.item-detail.extreme{
+    width: 242px;
+    height: 340px;
+    background-image: url(../images/bg-item-extreme.png);
+}
+
+.item-detail.sp{
+    width: 251px;
+    height: 220px;
+    background-image: url(../images/bg-item-sp.png);
+}
+
+.item-name{
+    padding-top: 6px;
+    text-align: center;
+}
+
+.item-name .require{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.item-name .name{
+    font-size: 14px;
+    color: #d3ebef;
+}
+
+.item-icon{
+    background-image: url(../images/sprite-rank.png);
+    margin: 0 auto;
+}
+
+.item-icon-list .item-icon{
+    float: left;
+}
+
+.sprite-r-1 {
+    width: 62px;
+    height: 61px;
+    background-position: 0 0;
+}
+
+.sprite-r-2 {
+    width: 70px;
+    height: 71px;
+    background-position: 0 -61px;
+}
+
+.sprite-r-3 {
+    width: 74px;
+    height: 72px;
+    background-position: 0 -132px;
+}
+
+.sprite-r-4 {
+    width: 78px;
+    height: 75px;
+    background-position: 0 -204px;
+}
+
+.sprite-r-5 {
+    width: 83px;
+    height: 80px;
+    background-position: 0 -279px;
+}
+
+.sprite-r-6 {
+    width: 88px;
+    height: 84px;
+    background-position: 0 -359px;
+}
+
+.weapon-1{
+    width: 164px;
+    height: 224px;
+    margin: 35px auto 0;
+    background-image: url(../images/w-1.png);
+}
+
+.weapon-2{
+    width: 161px;
+    height: 223px;
+    margin: 35px auto 0;
+    background-image: url(../images/w-2.png);
+}

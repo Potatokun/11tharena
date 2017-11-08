@@ -216,7 +216,7 @@
 .reward-list li{
     float: left;
     margin-bottom: 15px;
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .item-detail.normal{
@@ -316,4 +316,113 @@
     height: 223px;
     margin: 35px auto 0;
     background-image: url(../images/w-2.png);
+}
+
+.m-step{
+    width: 100%;
+    height: 98px;
+    border: 1px solid #2b415a;
+    background: #171e2b;
+}
+
+.m-step .tag{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100%;
+    font-size: 24px;
+    text-align: center;
+    color: #72869c;
+    background: #2b415a;
+}
+
+.m-step .tag::after{
+    position: absolute;
+    display: block;
+    content: "";
+    right: -10px;
+    top: 50%;
+    margin-top: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #2b415a;
+}
+
+.m-step .step-detail{
+    line-height: 27px;
+    margin-left: 180px;
+    padding: 20px 0;
+    color: #4189ac;
+    font-size: 16px;
+}
+
+.bbs-link{
+    display: block;
+    width: 251px;
+    height: 92px;
+    font-size: 0;
+    color: transparent;   
+}
+
+.bbs-link .cover{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/btn-bbs.png);
+    z-index: 3;
+}
+
+/* Button 1f */
+.bbs-link {
+	border: none;
+	font-family: inherit;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.bbs-link:after {
+	content: '';
+	position: absolute;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-1f {
+	overflow: hidden;
+}
+
+.btn-1f:after {
+	width: 101%;
+	height: 0;
+	top: 50%;
+	left: 50%;
+	background: #2b415a;
+	opacity: 0;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.btn-1f:hover,
+.btn-1f:active {
+	color: #0e83cd;
+}
+
+.btn-1f:hover:after {
+	height: 75%;
+    opacity: 0.75;
+    z-index: 2;
+}
+
+.btn-1f:active:after {
+	height: 130%;
+	opacity: 1;
 }

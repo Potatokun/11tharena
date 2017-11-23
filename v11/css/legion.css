@@ -1,0 +1,219 @@
+body{
+    position: relative;
+    font-family: "Microsoft Yahei";
+    overflow-x: hidden;
+    min-height: 4495px;
+    background: #161616;
+}
+
+.f-l{float: left;}
+.f-r{float: right;}
+
+.wrap{
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.bg{
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.bg .item{
+    width: 100%;
+    height: 899px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.bg .bg1{
+    background-image: url(../images/bg/bg_01.jpg);
+}
+
+.bg .bg2{
+    background-image: url(../images/bg/bg_02.jpg);
+}
+
+.bg .bg3{
+    background-image: url(../images/bg/bg_03.jpg);
+}
+
+.bg .bg4{
+    background-image: url(../images/bg/bg_04.jpg);
+}
+
+.bg .bg5{
+    background-image: url(../images/bg/bg_05.jpg);
+}
+
+
+.m-viewport{
+    padding-top: 960px;
+    color: #fff;
+}
+
+.m-legion{
+    margin-bottom: 145px;
+}
+
+.legion-text{
+    width: 1079px;
+    height: 275px;
+    margin: 0 auto 70px;
+}
+
+.legion-text.text-1{background-image: url(../images/content-1.png);}
+.legion-text.text-2{background-image: url(../images/content-2.png);}
+.legion-text.text-3{background-image: url(../images/content-3.png);}
+.legion-text.text-4{background-image: url(../images/content-4.png);}
+
+.evt-list{
+    overflow: hidden;
+}
+
+.evt-list li{
+    float: left;
+    width: 50%;
+    height: 354px;
+    background-repeat: no-repeat;
+}
+
+.evt-list .evt-1{background-image: url(../images/detail-1.png);}
+.evt-list .evt-2{background-image: url(../images/detail-2.png);background-position: right;}
+
+.evt-link{
+    display: block;
+    width: 394px;
+    height: 49px;
+    margin: 70px auto 0;
+    background: url(../images/link-1.png) center no-repeat;
+}
+
+.m-map .tab-view{
+    width: 100%;
+    height: 316px;
+    background: url(../images/map-1.png) center no-repeat;
+}
+
+.m-map .tab-btn{
+    text-align: center;
+    margin-top: -25px;
+}
+
+.m-map .tab-btn .u-btn{
+    display: inline-block;
+    width: 124px;
+    height: 17px;  
+}
+
+.m-map .u-btn.left{
+    background: url(../images/btn-left.png);
+}
+
+.m-map .u-btn.right{
+    background: url(../images/btn-right.png);
+}
+
+.drop-list{
+    width: 100%;
+    height: 287px;
+    margin: 0 auto;
+    background: url(../images/bg-list.png) center no-repeat;
+}
+
+.drop-list ul{
+    overflow: hidden;
+    width: 435px;
+    padding: 22px 0;
+    margin-left: 485px;
+    text-align: center;
+}
+
+.drop-list li{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+}
+
+.shop-view{
+    width: 100%;
+    height: 258px;
+    margin: 0 auto;
+    background: url(../images/shop.png) center no-repeat;    
+}
+
+.drop-item{
+    background-image: url(../images/sprite-icon.png);
+    background-repeat: no-repeat;
+}
+
+.A001 {
+    background-position: 0 0;
+}
+
+.A002 {
+    background-position: -46px 0;
+}
+
+.A003 {
+    background-position: -92px 0;
+}
+
+.A004 {
+    background-position: -138px 0;
+}
+
+.A005 {
+    background-position: 0 -46px;
+}
+
+.A006 {
+    background-position: -46px -46px;
+}
+
+.A007 {
+    background-position: -92px -46px;
+}
+
+.A008 {
+    background-position: -138px -46px;
+}
+
+.A009 {
+    background-position: 0 -92px;
+}
+
+.A010 {
+    background-position: -46px -92px;
+}
+
+.A011 {
+    background-position: -92px -92px;
+}
+
+.A012 {
+    background-position: -138px -92px;
+}
+
+.A013 {
+    background-position: 0 -138px;
+}
+
+.A014 {
+    background-position: -46px -138px;
+}
+
+.A015 {
+    background-position: -92px -138px;
+}
+
+.A016 {
+    background-position: -138px -138px;
+}
+
+.A017 {
+    background-position: -184px 0;
+}

@@ -1,0 +1,91 @@
+html, body {
+    position: relative;
+    height: 2000px;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color:#000;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/bg-top.jpg);
+    background-color: #060910;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+}
+
+.wrap{
+    width: 97vw;
+    margin: 0 auto;
+}
+
+.legion-text,
+.legion-detail,
+.evt-list li,
+.m-map,
+.drop-list,
+.shop-view{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;    
+}
+
+.m-viewport{
+    padding-top: 70vw;
+    padding-bottom: 40vw;
+}
+
+.legion-text{
+    margin-bottom: 8vw;
+}
+
+.legion-text.text-1{
+    height: 52vw;
+    background-image: url(../images/content-m-1.png);
+}
+
+.evt-list{
+    width: 100%;
+}
+
+.evt-list li{
+    width: 100%;
+    height: 68vw;
+    margin-bottom: 10vw;
+}
+
+.evt-list .evt-1{background-image: url(../images/evt-m-1.png);}
+.evt-list .evt-2{background-image: url(../images/evt-m-2.png);}
+
+.legion-text.text-2{
+    height: 52vw;
+    background-image: url(../images/content-m-2.png);
+}
+
+.m-map{
+    height: 83.2vw;
+    background-image: url(../images/map-detail.png);
+}
+
+.legion-text.text-3{
+    height: 52vw;
+    background-image: url(../images/content-m-3.png);
+}
+
+.drop-list{
+    height: 48.2vw;
+    background-image: url(../images/drop-list.png);    
+}
+
+.legion-text.text-4{
+    height: 52vw;
+    background-image: url(../images/content-m-4.png);
+}
+
+.shop-view{
+    height: 96vw;
+    background-image: url(../images/shop.png);
+}
+

@@ -1,0 +1,329 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.top{
+    position: relative;
+    background-image: url(../images/bg-cover.jpg);
+    background-size: cover;
+}
+
+.icon-md{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    width: 18px;
+    height: 36px;
+    margin-left: -18px;
+    background-image: url(../images/icon-md.png);
+    background-size: contain;    
+}
+
+.content-wrap{
+    width: 88vw;
+    margin: 0 auto;
+}
+
+.arena-item{
+    position: relative;
+    background-size: cover;  
+}
+
+.arena-item.area-1{
+    background-image: url(../images/bg-1.jpg);
+}
+
+.arena-item.area-2{
+    background-image: url(../images/bg-2.jpg);
+}
+
+.arena-item.area-3{
+    background-image: url(../images/bg-3.jpg);
+}
+
+.arena-item.area-4{
+    background-image: url(../images/bg-4.jpg);
+}
+
+.content-block{
+    width: 72vw;
+}
+
+.content-wrap h4{
+    /* margin-bottom: 5px; */
+    text-align: center;
+    font-size: 0.8rem;
+    color: #6be6f6;
+}
+
+.content-wrap h5.slogen{
+    font-size: 0.4rem;
+    font-weight: 400;
+    color: #d3ebef;
+}
+
+.content-wrap .rule{
+    font-size: 0.4rem;
+    color: #4189ac;
+}
+
+.reward-list{
+    overflow: hidden;
+}
+
+.reward-list.list-1 li{
+    float: left;
+    width: 25%;
+    margin-bottom: 4vw;
+}
+
+.list-1 .item-detail{
+    width: 80%;
+}
+
+.list-1 .item-detail.large{
+    margin: 0 auto;
+}
+
+.list-1.reward-list li.large{
+    width: 50%;
+}
+
+.list-1 .item-name{
+    position: relative;
+    padding: 0 0.1rem;
+    font-size: 0.3rem;
+    background: #4189ac;
+    text-align: center;
+}
+
+.list-1 .item-name::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -0.4rem;
+    transform: translateX(-50%);
+    border-top: 0.2rem solid #4189ac;
+    border-left: 0.2rem solid transparent;
+    border-bottom: 0.2rem solid transparent;
+    border-right: 0.2rem solid transparent;
+}
+
+.list-1 .item-name::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -0.6rem;
+    transform: translateX(-50%);
+    width: 11px;
+    height: 11px;
+    background-image: url(../images/icon-next.png);
+    background-size: cover;
+}
+
+@media screen and (max-width:321px){
+    .list-1 .get{
+        display: none;
+    }
+}
+
+.list-1 .large .item-icon{
+    float: left;
+    width: 50%;
+}
+
+.list-1 .item-icon{
+    padding-top: 0.7rem;
+}
+
+.list-1 .item-icon .icon{
+    width: 10vw;
+    height: 10vw;
+    margin: 0 auto;
+    background-image: url(../images/sample.png);
+    background-size: cover;    
+}
+
+.list-1 .item-icon .name{
+    font-size: 0.1rem;
+    color: #4189ac;
+    text-align: center;
+}
+
+.reward-list.list-2{
+    overflow: hidden;
+    margin-left: -5vw;
+}
+
+.reward-list.list-2 li{
+    float: left;
+    width: 32vw;
+    height: 52vw;
+    margin-left: 5vw;
+    background-image: url(../images/bg-item-extreme.png);
+    background-size: cover;
+    text-align: center;      
+}
+
+.reward-list.list-2 .item-name .main{
+    /* font-size: 0.3rem; */
+    color: #fff;
+}
+
+.reward-list.list-2 .item-name .sub{
+    /* font-size: 0.2rem; */
+    color: #d3ebef;
+}
+
+.reward-list.list-2 img{
+    display: block;
+    width: 67%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.reward-list.list-3{
+    overflow: hidden;
+    margin-left: -5vw;
+}
+
+.reward-list.list-3 li{
+    float: left;
+    width: 33vw;
+    height: 29vw;
+    margin-left: 5vw;
+    background-image: url(../images/bg-item-sp.png);
+    background-size: cover;
+    text-align: center;      
+}
+
+.reward-list.list-3 .item-name .main{
+    /* font-size: 0.3rem; */
+    color: #fff;
+    font-weight: 700;
+}
+
+.m-step{
+    width: 100%;
+    height: 50px;
+    margin-top: 1em;
+    border: 1px solid #2b415a;
+    background: #171e2b;
+}
+
+.m-step .tag{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    color: #72869c;
+    background: #2b415a;
+}
+
+.m-step .tag::after{
+    position: absolute;
+    display: block;
+    content: "";
+    right: -10px;
+    top: 50%;
+    margin-top: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #2b415a;
+}
+
+.m-step .step-detail{
+    line-height: 1.5em;
+    margin-left: 125px;
+    padding-top: 9px;
+    color: #4189ac;
+    font-size: 1em;
+}
+
+@media screen and (max-width:321px){
+    .m-step .step-detail{
+        margin-left: 110px;
+    }
+}
+
+
+.bbs-link{
+    display: block;
+    width: 125px;
+    height: 46px;
+    margin: 0 auto;
+    font-size: 0;
+    color: transparent;
+    background-image: url(../images/btn-bbs.png);
+    background-size: cover;    
+}
+
+.u-nav{
+    position: fixed;
+    top: -58px;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background-image: url(../images/bg-nav.png);
+    background-size: cover;
+    background-repeat: repeat-x;
+    z-index: 20;
+    transition: all 0.3s;    
+}
+
+.u-nav.active{
+    top: 0;
+}
+
+.u-nav .nav-wrap{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-item{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-item.item-1{background-image: url(../images/nav/nav-1.png);}
+.nav-item.item-2{background-image: url(../images/nav/nav-2.png);}
+.nav-item.item-3{background-image: url(../images/nav/nav-3.png);}
+.nav-item.item-4{background-image: url(../images/nav/nav-4.png);}
+.nav-item.item-5{background-image: url(../images/nav/nav-5.png);}

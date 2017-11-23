@@ -15,11 +15,12 @@ var Arena = {};
 
             this.init();
 
-            console.log('ready');
+            //console.log('ready');
         };
 
         PageTurner.prototype = {
             init : function(){
+                this.setViewStatus();
                 this.evtBind();
             },
 
@@ -44,10 +45,10 @@ var Arena = {};
                     this.now = this.now == 0 ? this.totalPage-1 : this.now-1; 
                 }
                 this.book.animate({'left': -100*this.now + '%'},this.spd);
-                this.setNav();
+                this.setViewStatus();
             },
 
-            setNav : function(){
+            setViewStatus : function(){
                 var self = this;
                 self.nav.children().children().each(function(index){
                     var _i = index;
@@ -56,6 +57,8 @@ var Arena = {};
                 
                 self.now==self.totalPage-1?self.nav.addClass('last'):self.nav.removeClass('last');
 
+                self.book.children().removeClass('active');
+                self.book.children().eq(self.now).addClass('active');
             }
         };
 

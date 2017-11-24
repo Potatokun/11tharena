@@ -75,6 +75,7 @@ body {
 }
 
 .content-block{
+    position: relative;
     width: 72vw;
 }
 
@@ -150,7 +151,7 @@ body {
     background-size: cover;
 }
 
-@media screen and (max-width:321px){
+@media screen and (max-width:415px){
     .list-1 .get{
         display: none;
     }
@@ -177,6 +178,11 @@ body {
     font-size: 0.1rem;
     color: #4189ac;
     text-align: center;
+}
+
+.area-1 .rule{
+    width: 50%;
+    font-size: 1.2em;
 }
 
 .reward-list.list-2{
@@ -327,3 +333,47 @@ body {
 .nav-item.item-3{background-image: url(../images/nav/nav-3.png);}
 .nav-item.item-4{background-image: url(../images/nav/nav-4.png);}
 .nav-item.item-5{background-image: url(../images/nav/nav-5.png);}
+
+.item-tip.tip-1{
+    position: absolute;
+    right: 0;
+    top: 5em;
+    width: 11em;
+    height: 6em;
+    border: 1px solid #2b415a;
+    background: #171e2b;
+    overflow: hidden;
+}
+
+.item-tip .tag{
+    float: left;
+    width: 1.2em;
+    height: 100%;
+    line-height: 100%;
+    padding: 0.4em 0.4em;
+    font-size: 1.2em;
+    color: #d3ebef;
+    background: #2b415a;
+}
+
+.item-tip.tip-1 .item-detail{
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+.item-tip .item-name{
+    font-size: 1em;
+    color: #93b4cd;
+    text-align: center;
+}
+
+@media screen and (max-width:321px){
+    .item-tip.tip-1{
+        top: 4em;
+        right: -3em;
+    }
+
+    .area-1 .rule{
+        font-size: 1em;
+    }
+}
